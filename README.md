@@ -1,5 +1,7 @@
 # UFEP_Released
-Unlocking Full Exploration Potential of Ground Robots: Extracting Comprehensive Frontiers within Locomotion Limits
+Unlocking Full Exploration Potential of Ground Robots: Extracting Comprehensive Frontiers within Locomotion Limits.
+
+Our paper is currently under review, and the code of UFEP will be released as our work is accepted.
 
 ## Dependencies
 These instructions assume that ROS desktop-full of the appropriate ROS distro is installed.
