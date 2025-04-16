@@ -1,0 +1,97 @@
+vrmapping_settings:
+  spinner_thread: 9
+  ElevationMapTopic: "/elevation_mapping/elevation_map_raw"
+  IteratorElevationMapFps: 2.0
+  ElevationLayer: "elevation"
+  TraversabilityLayer: "step_cutter"
+  TraversabilitySupplementaryLayer: "traversability"
+  VRMapResolutionMax: 0.64
+  VRMapResolutionMin: 0.16
+  TraversabilityThreshold: 0.70
+  LimitBoxZ: 1.7
+  LimitBoxZForConnectEdge: 0.3
+  ValidThresholdForMultiMapResolution: 0.90
+  VisualizeFreshFps: 2.0
+  WorldFrame: "world" #world_planner world
+  ExtractFrontierFps: 1.0
+  RobotFrame: "SmbA_base_link" #base_link_planner base_link
+  AttractiveGain: 0.0
+  RepulsiveGain: 0.01
+  BoundRadiu: 0.6
+  UpdateTargetFps: 3.00 
+  ExpandGraphX: 5.0
+  ExpandGraphY: 5.0
+  ExpandGraphZ: 0.5
+  ExpandGraphTime: 2
+  FrontierLayer: "frontiers"
+  IfPlanPathByAStar: true
+  RobotHeight: 0.235
+  LambdaSize: 20000.11
+  LambdaDistance: 1.501666666
+  LambdaObstacle: 0.0101
+  LambdaZDistance: 300.1
+  IfContrainTheExplorationArea: false
+  ConstrainsOfTheExplorationAreaXMin: -5.0
+  ConstrainsOfTheExplorationAreaXMax: 5.0
+  ConstrainsOfTheExplorationAreaYMin: -5.0
+  ConstrainsOfTheExplorationAreaYMax: 5.0
+  ConstrainsOfTheExplorationAreaZMin: -2.0
+  ConstrainsOfTheExplorationAreaZMax: 3.0
+  ExpandSampledGraphForTargetSelectionX: 30.0
+  ExpandSampledGraphForTargetSelectionY: 30.0
+  ExpandSampledGraphForTargetSelectionZ: 2.0
+  MaxExpandSampledGraphTime: 2
+  IfReplacePotentialFiledByResolution: true
+  MinTraResolution: 0.5
+  IfUpdateMapByMultiThreads: true
+  IntegratorThreads: 0 #0 for max.
+path_tracker_settings:
+  if_tracker_enable: true
+  path_track_fps: 10
+  cmd_topic_: "/SmbA/smb_velocity_controller/cmd_vel"  #"/smb_velocity_controller/cmd_vel" "/cmd_vel"
+  goal_reaching_threshold: 0.9
+  pose_update_fps: 10
+  World_Frame: "world" #world world_planner
+  Robot_Frame: "SmbA_base_link" #base_link base_link_planner
+  look_ahead_distance: 0.3
+  IfTryFindInABigDistance: true
+  look_ahead_distanceInMax: 0.75
+  look_ahead_verticesInMax: 2
+  look_ahead_error_margin: 0.2
+  carrot_point_topic: "/carrot_point"
+  curvature_scaling_angle: 0.52
+  critical_angle: 0.52
+  max_ang_vel: 0.5
+  desired_vel: 0.9
+  num_point_in_path_look_ahead_for_turn_: 5
+  min_inver_point: 5
+  IfAheadThePathAllTheTime: false
+  RemainVerticesNumMinValue: 3
+  RemainVerticesNumMaxValue: 5
+  DistanceOfTargetMinValue: 1.0
+sampler_settings:
+  SampleFps: 3.0
+  SampleAddRobotStateFps: 1.0
+  CumProbLayer: "cum_prob"
+  CumProbRowwiseHackLayer: "cum_prob_rowwise_hack"
+  NormalXLayer: "normal_x"
+  NormalYLayer: "normal_y"
+  NormalZLayer: "normal_z"
+  NewSampledVerticesNumThreshold: 10000
+  ValidVerticesThreshold: 10
+  ValidEdgesThreshold: 500
+  SampleTimeThreshold: 0.2
+  DistanceXMax: 2.1                   #Double Of Min Edge Length
+  DistanceYMax: 2.1
+  DistanceZMax: 0.5
+  MaxCheckPoint: 8
+  RobotWidth: 0.5
+  TraversabilityThreshold: 0.6
+  ConnectEdgesMax: 8
+  EdgeLengthMin: 1.0
+
+
+
+
+
+

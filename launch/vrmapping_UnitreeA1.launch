@@ -1,0 +1,8 @@
+<launch>
+  
+  <node name="vrmapping" pkg="vrmapping" type="vrmapping_node" output="screen" launch-prefix="gdb -ex run --args ">
+  <rosparam file="$(find vrmapping)/config/parameters_UnitreeA1.yaml" command="load" />
+  </node>
+
+  <include file="$(find vrmapping_ui)/launch/vrm_ui_jy.launch"/>
+</launch>
