@@ -81,10 +81,10 @@ sampler_settings:
   ValidVerticesThreshold: 10
   ValidEdgesThreshold: 500
   SampleTimeThreshold: 0.2
-  DistanceXMax: 2.1                   #Double Of Min Edge Length
-  DistanceYMax: 2.1
+  DistanceXMax: 1.2                   #Double Of Min Edge Length
+  DistanceYMax: 1.2
   DistanceZMax: 0.5
-  MaxCheckPoint: 8
+  MaxCheckPoint: 2
   RobotWidth: 0.3
   TraversabilityThreshold: 0.6
   ConnectEdgesMax: 8

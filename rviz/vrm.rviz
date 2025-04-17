@@ -1,0 +1,484 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /TF1/Frames1
+      Splitter Ratio: 0.5
+    Tree Height: 524
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+  - Class: vrmapping_ui/VRMapping Control
+    Name: VRMapping Control
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: false
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 100
+      Reference Frame: <Fixed Frame>
+      Value: false
+    - Class: rviz/Marker
+      Enabled: false
+      Marker Topic: /vrmapping/GlobalGraph
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: false
+    - Class: rviz/TF
+      Enabled: true
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        SmbA/SmbA_Sensor_Head_Top_Velodyne:
+          Value: false
+        SmbA_LF_WHEEL_LINK:
+          Value: false
+        SmbA_LH_WHEEL_LINK:
+          Value: false
+        SmbA_RF_WHEEL_LINK:
+          Value: false
+        SmbA_RH_WHEEL_LINK:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_bottom_screw_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_color_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_color_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_depth_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_depth_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_left_ir_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_left_ir_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_link:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_right_ir_frame:
+          Value: false
+        SmbA_Sensor_Head_Back_RealsenseD435_right_ir_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_bottom_screw_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_color_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_color_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_depth_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_depth_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_left_ir_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_left_ir_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_link:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_right_ir_frame:
+          Value: false
+        SmbA_Sensor_Head_Front_RealsenseD435_right_ir_optical_frame:
+          Value: false
+        SmbA_Sensor_Head_Top_Velodyne:
+          Value: false
+        SmbA_Sensor_Head_Top_Velodyne_base_link:
+          Value: false
+        SmbA_Sensor_Head_base_link:
+          Value: false
+        SmbA_base_footprint:
+          Value: false
+        SmbA_base_link:
+          Value: true
+        SmbA_base_stabilized:
+          Value: false
+        SmbA_inertial_link:
+          Value: false
+        navigation:
+          Value: false
+        odom:
+          Value: false
+        world:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 5
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          SmbA_base_footprint:
+            SmbA_base_stabilized:
+              SmbA_base_link:
+                SmbA_LF_WHEEL_LINK:
+                  {}
+                SmbA_LH_WHEEL_LINK:
+                  {}
+                SmbA_RF_WHEEL_LINK:
+                  {}
+                SmbA_RH_WHEEL_LINK:
+                  {}
+                SmbA_Sensor_Head_base_link:
+                  SmbA_Sensor_Head_Back_RealsenseD435_bottom_screw_frame:
+                    SmbA_Sensor_Head_Back_RealsenseD435_link:
+                      SmbA_Sensor_Head_Back_RealsenseD435_depth_frame:
+                        SmbA_Sensor_Head_Back_RealsenseD435_color_frame:
+                          SmbA_Sensor_Head_Back_RealsenseD435_color_optical_frame:
+                            {}
+                        SmbA_Sensor_Head_Back_RealsenseD435_depth_optical_frame:
+                          {}
+                        SmbA_Sensor_Head_Back_RealsenseD435_left_ir_frame:
+                          SmbA_Sensor_Head_Back_RealsenseD435_left_ir_optical_frame:
+                            {}
+                        SmbA_Sensor_Head_Back_RealsenseD435_right_ir_frame:
+                          SmbA_Sensor_Head_Back_RealsenseD435_right_ir_optical_frame:
+                            {}
+                  SmbA_Sensor_Head_Front_RealsenseD435_bottom_screw_frame:
+                    SmbA_Sensor_Head_Front_RealsenseD435_link:
+                      SmbA_Sensor_Head_Front_RealsenseD435_depth_frame:
+                        SmbA_Sensor_Head_Front_RealsenseD435_color_frame:
+                          SmbA_Sensor_Head_Front_RealsenseD435_color_optical_frame:
+                            {}
+                        SmbA_Sensor_Head_Front_RealsenseD435_depth_optical_frame:
+                          {}
+                        SmbA_Sensor_Head_Front_RealsenseD435_left_ir_frame:
+                          SmbA_Sensor_Head_Front_RealsenseD435_left_ir_optical_frame:
+                            {}
+                        SmbA_Sensor_Head_Front_RealsenseD435_right_ir_frame:
+                          SmbA_Sensor_Head_Front_RealsenseD435_right_ir_optical_frame:
+                            {}
+                  SmbA_Sensor_Head_Top_Velodyne_base_link:
+                    SmbA_Sensor_Head_Top_Velodyne:
+                      SmbA/SmbA_Sensor_Head_Top_Velodyne:
+                        {}
+                SmbA_inertial_link:
+                  {}
+          navigation:
+            {}
+          odom:
+            {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        SmbA/SmbA_Sensor_Head_Top_Velodyne:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_LF_WHEEL_LINK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_LH_WHEEL_LINK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_RF_WHEEL_LINK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_RH_WHEEL_LINK:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_Sensor_Head_Back_RealsenseD435_bottom_screw_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_color_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_color_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_left_ir_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_left_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_Sensor_Head_Back_RealsenseD435_right_ir_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Back_RealsenseD435_right_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_bottom_screw_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_color_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_color_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_left_ir_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_left_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_Sensor_Head_Front_RealsenseD435_right_ir_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Front_RealsenseD435_right_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_Sensor_Head_Top_Velodyne:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_Sensor_Head_Top_Velodyne_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_Sensor_Head_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SmbA_base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        SmbA_inertial_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Name: RobotModel
+      Robot Description: SmbA/robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Class: grid_map_rviz_plugin/GridMap
+      Color: 200; 200; 200
+      Color Layer: elevation
+      Color Transformer: GridMapLayer
+      Enabled: false
+      Height Layer: elevation
+      Height Transformer: GridMapLayer
+      History Length: 1
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 10
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: GridMap
+      Show Grid Lines: true
+      Topic: /elevation_mapping/elevation_map_raw
+      Unreliable: false
+      Use Rainbow: true
+      Value: false
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /vrmapping/GlobalGraph
+      Name: MarkerArray
+      Namespaces:
+        Globalvertex: true
+        Globalvertex_obstacle: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Marker
+      Enabled: false
+      Marker Topic: /vrmapping/GlobalGraphEdge
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: false
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /vrmapping/Frontier
+      Name: Marker
+      Namespaces:
+        GlobalFrontierVertex: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /vrmapping/CentersOfFrontierSubGraph
+      Name: MarkerArray
+      Namespaces:
+        point_pre_exploration: true
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: false
+      Marker Topic: /vrmapping/FrontierSubGraph
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: false
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /vrmapping/Path
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 0; 0; 0
+    Default Light: true
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /move_base_simple/goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 31.315494537353516
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
+      Focal Point:
+        X: 3.1943182945251465
+        Y: 0.06701362133026123
+        Z: 0.8579049110412598
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 1.5697963237762451
+      Target Frame: <Fixed Frame>
+      Yaw: 3.1397993564605713
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1016
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000002430000035afc0200000009fb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c006100790073010000003d00000297000000c900fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000002200560052004d0061007000700069006e006700200043006f006e00740072006f006c01000002da000000bd000000bd00ffffff000000010000010f0000035afc0200000003fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a00560069006500770073010000003d0000035a000000a400fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000007380000003efc0100000002fb0000000800540069006d0065010000000000000738000003bc00fffffffb0000000800540069006d00650100000000000004500000000000000000000003da0000035a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  VRMapping Control:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1848
+  X: 74
+  Y: 27

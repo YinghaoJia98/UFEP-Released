@@ -1301,6 +1301,10 @@ void Sampler::UpdateEdges(grid_map::GridMap SourceElevationMap,
             Eigen::Array2i IndexTem_;
             SourceElevationMap.getIndex(Position2DTem_, IndexTem_);
             double TraversabilityTem_ = SourceElevationMap.at(TraversabilityLayer, IndexTem_);
+            if (TraversabilityTem_ != TraversabilityTem_)
+            {
+                continue;
+            }
             if (TraversabilityTem_ < TraversabilityThreshold)
             {
                 std::vector<Vertex *> VerticesNeedToBeRemovedTem_;
@@ -1312,6 +1316,10 @@ void Sampler::UpdateEdges(grid_map::GridMap SourceElevationMap,
                                                         0.1);
                 continue;
             }
+        }
+        else
+        {
+            continue;
         }
 
         std::vector<Vertex *> Vertices2Tem_;

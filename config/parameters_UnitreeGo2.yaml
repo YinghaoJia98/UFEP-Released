@@ -5,7 +5,7 @@ vrmapping_settings:
   ElevationLayer: "elevation"
   TraversabilityLayer: "step_cutter"
   TraversabilitySupplementaryLayer: "traversability"
-  VRMapResolutionMax: 1.44
+  VRMapResolutionMax: 0.72
   VRMapResolutionMin: 0.18
   TraversabilityThreshold: 0.70
   LimitBoxZ: 1.7
@@ -37,10 +37,10 @@ vrmapping_settings:
   ConstrainsOfTheExplorationAreaYMax: 5.0
   ConstrainsOfTheExplorationAreaZMin: -2.0
   ConstrainsOfTheExplorationAreaZMax: 3.0
-  ExpandSampledGraphForTargetSelectionX: 30.0
-  ExpandSampledGraphForTargetSelectionY: 30.0
+  ExpandSampledGraphForTargetSelectionX: 15.0
+  ExpandSampledGraphForTargetSelectionY: 15.0
   ExpandSampledGraphForTargetSelectionZ: 2.0
-  MaxExpandSampledGraphTime: 2
+  MaxExpandSampledGraphTime: 1
   IfReplacePotentialFiledByResolution: true
   MinTraResolution: 0.5
   IfUpdateMapByMultiThreads: true
@@ -77,14 +77,14 @@ sampler_settings:
   NormalXLayer: "normal_x"
   NormalYLayer: "normal_y"
   NormalZLayer: "normal_z"
-  NewSampledVerticesNumThreshold: 10000
+  NewSampledVerticesNumThreshold: 1000
   ValidVerticesThreshold: 10
   ValidEdgesThreshold: 500
   SampleTimeThreshold: 0.2
-  DistanceXMax: 2.1                   #Double Of Min Edge Length
-  DistanceYMax: 2.1
+  DistanceXMax: 1.2                   #Double Of Min Edge Length
+  DistanceYMax: 1.2
   DistanceZMax: 0.5
-  MaxCheckPoint: 8
+  MaxCheckPoint: 2
   RobotWidth: 0.35
   TraversabilityThreshold: 0.6
   ConnectEdgesMax: 8
